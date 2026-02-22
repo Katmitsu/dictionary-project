@@ -1,0 +1,32 @@
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: rgb(172, 74, 237);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Dictionary .Hint {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #bc86cb;
+  font-family: "Courier New", Courier, monospace;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import Synonyms from "./Synonyms";
+import "./Meaning.css";
 
 export default function Meaning({ meaning }) {
   if (!meaning) return null;
@@ -7,9 +8,13 @@ export default function Meaning({ meaning }) {
   return (
     <div className="Meaning">
       <h3>{meaning.partOfSpeech}</h3>
-      <p>{meaning.definition}</p>
+      <div className="Definition">
+        <p>{meaning.definition}</p>
+      </div>
       <Synonyms synonyms={meaning.synonyms} />
-      <em> {meaning.example}</em>
+      <div className="Example">
+        <em> {meaning.example}</em>
+      </div>
     </div>
   );
 }

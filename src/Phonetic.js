@@ -1,4 +1,5 @@
 import React from "react";
+import "./Phonetic.css";
 
 export default function Phonetic({ phonetic }) {
   if (!phonetic || phonetic.length === 0) {

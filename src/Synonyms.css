@@ -1,0 +1,13 @@
+.Synonyms {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ac70bd;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.Synonyms li {
+  font-size: 13px;
+  display: inline-block;
+  margin-right: 10px;
+  padding-right: 15px;
+}

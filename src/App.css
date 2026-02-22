@@ -1,3 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e7e0f4;
+  margin: 0;
+  padding: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
 .App-header {
   margin: 30px 0;
 }
